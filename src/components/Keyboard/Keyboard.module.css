@@ -1,12 +1,12 @@
 .keyboard {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 16px;
   width: 100%;
 }
 
 .row {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
+  gap: 16px;
 }
