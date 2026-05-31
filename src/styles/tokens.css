@@ -1,0 +1,53 @@
+:root {
+  /* =====================================================
+   * 🎨 PALETA DE PROCREATE
+   * Después de dibujar, usa el color picker de Procreate
+   * y reemplaza estos valores con los colores exactos de tu ilustración.
+   * ===================================================== */
+
+  /* Fondo de la página — fallback cuando no existe public/assets/page-bg.png */
+  --color-page-bg: #f5f0e8;
+
+  /* Cuerpo de la calculadora (fallback sin imagen) */
+  --color-calc-bg: #ede8dc;
+  --color-border: #c8b89a;
+
+  /* Display */
+  --color-display-bg: #1c2b1c;
+  --color-display-text: #a8e890;
+  --color-display-error: #ff7070;
+
+  /* Botones — números */
+  --color-btn-number: #faecd8;
+  --color-btn-number-hover: #f0ddc3;
+  --color-btn-number-active: #e5ceae;
+
+  /* Botones — operadores */
+  --color-btn-operator: #D96142;
+  --color-btn-operator-hover: #c4563a;
+  --color-btn-operator-active: #ae4a31;
+
+  /* Botón — igual */
+  --color-btn-equals: #b8401e;
+  --color-btn-equals-hover: #a3381a;
+  --color-btn-equals-active: #8e3016;
+
+  /* Botones — funciones (C, ±, .) */
+  --color-btn-function: #DC8F63;
+  --color-btn-function-hover: #c87d52;
+  --color-btn-function-active: #b46b40;
+
+  /* Texto */
+  --color-text-dark: #2c1a10;
+  --color-text-light: #f5f0e8;
+
+  /* Sombras */
+  --shadow-btn: 0 4px 0 rgba(0, 0, 0, 0.22);
+  --shadow-btn-active: 0 1px 0 rgba(0, 0, 0, 0.22);
+  --shadow-calc: 0 16px 60px rgba(0, 0, 0, 0.40), 0 4px 16px rgba(0, 0, 0, 0.22);
+
+  /* Radios */
+  --radius-calc: 24px;
+  --radius-display: 12px;
+  --radius-btn: 12px;
+}
